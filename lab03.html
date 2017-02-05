@@ -3,7 +3,7 @@
 
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Bootstrap</title>
+    <title>Bootstrap </title>
     <link rel="shortcut icon" href="http://angsila.cs.buu.ac.th/~58660129/887371/lab01/Untitled-1.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,6 +40,11 @@
             color: #fff;
             padding: 100px 25px;
             font-family: Montserrat, sans-serif;
+            width: 100%;
+            height: 360px;
+            background-image: url('WFfKejds.jpg');
+            background-size: 1400px;
+            margin-bottom: 0;
         }
         
         .container-fluid {
@@ -229,6 +234,13 @@
                 font-size: 150px;
             }
         }
+        
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 3px;
+            width: 200px;
+        }
     </style>
 </head>
 
@@ -246,28 +258,41 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">Grid</a></li>
-                    <li><a href="#services">Form</a></li>
+                    <li><a href="#Grid">Grid</a></li>
+                    <li><a href="#Form">Form</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="jumbotron text-center">
-        <h1><img src="tumblr_mc9eq4QXha1r8vtp2o1_500.gif"></h1>
+    <div class="jumbotron">
+        <br><br><br><br><br><br>
+        <ul class="list-inline">
+            <li>
+                <a href="http://angsila.cs.buu.ac.th/~58660129/887371/lab01/aboutme.html" data-toggle="tooltip" data-placement="top" title="about me!"><img src="tumblr_npva3wl7sv1twcnyko7_250.gif" class="img-thumbnail" alt="Cinque Terre" width="200" height="200"></a>
+            </li>
+        </ul>
 
     </div>
 
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <div class="row border-bottom " style="border-top: 5px solid #000000; border-bottom: 35px solid #fdd643;">
+    </div>
+
     <!-- Container (About Section) -->
-    <div id="about" class="container-fluid">
+    <div id="Grid" class="container-fluid">
+
         <div class="row">
             <div class="col-sm-8">
-                <h2>About Company Page</h2><br>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <br><button class="btn btn-default btn-lg">Get in Touch</button>
+                <br>
+                <h2>การใช้งาน Grid ใน Bootstrap</h2><br>
+                <h4>@#^&*(_+^@%@#%@%$#^$#%$&%*^%&^(**)()**^%$#@!@#$%^&*()_</h4><br>
+                <p>L_#$%^&*()_+&^%$@$$&%*^(&)*((*&^%$#@$%#^$%&&^*&*(*&%$@$#%$%^^%$#$%^&^%$%^&*@#$%^&*(</p>
+                <br>
             </div>
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-signal logo"></span>
@@ -276,75 +301,19 @@
     </div>
 
 
-    <!-- Container (Services Section) -->
-    <div id="services" class="container-fluid text-center">
-        <h2>SERVICES</h2>
-        <h4>What we offer</h4>
-        <br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
-                <h4>POWER</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
-                <h4>LOVE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
-                <h4>JOB DONE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-        <br><br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>GREEN</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>CERTIFIED</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4 style="color:#303030;">HARD WORK</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
+    <!-- Container (Form Section) -->
+    <div id="Form" class="container-fluid text-center">
+        <h2>การใช้งาน Form </h2>
+        <h4>Bootstrap Forms</h4>
+        <br> หกดฟเัก้ืทยนไำบชพๆพตะขๆตำพี่เนไพๆาดบรภชถึพีาดมช๒ฏโฌ็๋ษศสหา่าด่ยหฟ่
+        <br>นย่เยอืีภบืรบยายเาสวหก่ีนเฟดตฟ้ยนก่ฟวสด่กาวหฟ่ดาวฟ่หกาว่ฟาวห่กวาฟ่หวาก่ยคหัคจด<br>
+
     </div>
 
 
 
-    <!-- Add Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-        var myCenter = new google.maps.LatLng(41.878114, -87.629798);
 
-        function initialize() {
-            var mapProp = {
-                center: myCenter,
-                zoom: 12,
-                scrollwheel: false,
-                draggable: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
 
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-
-            var marker = new google.maps.Marker({
-                position: myCenter,
-            });
-
-            marker.setMap(map);
-        }
-
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 
     <footer class="container-fluid text-center">
         <a href="#myPage" title="To Top">
