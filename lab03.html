@@ -3,7 +3,7 @@
 
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Bootstrap</title>
+    <title>Bootstrap </title>
     <link rel="shortcut icon" href="1f4d2.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -241,6 +241,23 @@
             padding: 3px;
             width: 200px;
         }
+        
+        table,
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+        }
     </style>
 </head>
 
@@ -287,77 +304,254 @@
     <div id="Grid" class="container-fluid">
 
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-1 sidenav">
+            </div>
+            <div class="col-sm-10">
                 <br>
                 <h2>การใช้งาน Grid ใน Bootstrap</h2><br>
-                <h4>@#^&*(_+^@%@#%@%$#^$#%$&%*^%&^(**)()**^%$#@!@#$%^&*()_</h4><br>
-                <p>L_#$%^&*()_+&^%$@$$&%*^(&)*((*&^%$#@$%#^$%&&^*&*(*&%$@$#%$%^^%$#$%^&^%$%^&*@#$%^&*(</p>
+                <h4>Bootstrap Grid System</h4>
+                <p>หลังการใช้คือ เพียงเพราะปัจจุบันมีหน้าจอหลากหลายมากขึ้น Bootstrap Grid จึงทำให้รองรับหน้าจอที่หลากลหายเหล่านั้น โดยการแบ่งหน้าจอเป็นส่วน ในแต่ละหน้าจะแบ่งได้ 12 คอลัมน์ หรือ หากว่าเราไม่ต้องการให้มีเพียง 12 คอลัมน์ เราก็สามารถสร้างกลุ่มและกำหนดความขนาดได้
+                    : </p>
+
+
+                <div class="row">
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-bottom: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+                    <div class="col-sm-1" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 1</center>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" style="background-color:#f6f4f0;  border-bottom: 2px solid #ffffff">
+                        <center>span 4</center>
+                    </div>
+                    <div class="col-sm-4" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 4</center>
+                    </div>
+                    <div class="col-sm-4" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 4</center>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4" style="background-color:#f6f4f0;  border-bottom: 2px solid #ffffff">
+                        <center>span 4</center>
+                    </div>
+                    <div class="col-sm-8" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 8</center>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6" style="background-color:#f6f4f0;  border-bottom: 2px solid #ffffff">
+                        <center>span 6</center>
+                    </div>
+                    <div class="col-sm-6" style="background-color:#f6f4f0;  border-left: 2px solid #ffffff">
+                        <center>span 6</center>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12" style="background-color:#f6f4f0;  border-bottom: 2px solid #ffffff">
+                        <center>span 12</center>
+                    </div>
+                </div>
                 <br>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
+                <h4>ประเภทของหน้าจอทั้ง 4 ประเภทมีดังต่อไปนี้</h4>
+                <table>
+                    <tr>
+                        <th>class</th>
+                        <th>type</th>
+                    </tr>
+                    <tr>
+                        <td>col-px-*</td>
+                        <td>for phones</td>
+
+                    </tr>
+                    <tr>
+                        <td>col-sm-*</td>
+                        <td>for tablets</td>
+
+                    </tr>
+                    <tr>
+                        <td>col-md-*</td>
+                        <td>for desktops</td>
+
+                    </tr>
+                    <tr>
+                        <td>col-lg-*</td>
+                        <td>for larger desktops</td>
+                    </tr>
+                </table>
+                <br>
+
+                <p> ตัวอย่าง</p>
+                <pre class="html">&lt;div class="row"&gt;
+                 &lt;div class="col-*-*"&gt;&lt;/div&gt;
+                 &lt;div class="col-*-*"&gt;&lt;/div&gt;
+                 &lt;/div&gt;</pre>
+
+                <p> 12 คอลัมน์</p>
+                <pre class="html">&lt;div class="row"&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+    &lt;div class="col-sm-1"&gt;.col-sm-1&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+                <p> 3 คอลัมน์</p>
+                <pre class="html">&lt;div class="row"&gt;
+    &lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;
+    &lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;
+    &lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+                <p> 2 คอลัมน์</p>
+                <pre class="html">&lt;div class="row"&gt;
+    &lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;
+    &lt;div class="col-sm-8"&gt;.col-sm-8&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+                <p> 2 คอลัมน์</p>
+                <pre class="html">&lt;div class="row"&gt;
+    &lt;div class="col-sm-6"&gt;.col-sm-6&lt;/div&gt;
+    &lt;div class="col-sm-6"&gt;.col-sm-6&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+                <p> 1 คอลัมน์</p>
+                <pre class="html">&lt;div class="row"&gt;
+    &lt;div class="col-sm-12"&gt;.col-sm-12&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+
             </div>
         </div>
+        <div class="col-sm-1 sidenav">
+        </div>
+    </div>
     </div>
 
 
     <!-- Container (Form Section) -->
-    <div id="Form" class="container-fluid text-center">
-        <h2>การใช้งาน Form </h2>
-        <h4>Bootstrap Forms</h4>
-        <br> หกดฟเัก้ืทยนไำบชพๆพตะขๆตำพี่เนไพๆาดบรภชถึพีาดมช๒ฏโฌ็๋ษศสหา่าด่ยหฟ่
-        <br>นย่เยอืีภบืรบยายเาสวหก่ีนเฟดตฟ้ยนก่ฟวสด่กาวหฟ่ดาวฟ่หกาว่ฟาวห่กวาฟ่หวาก่ยคหัคจด<br>
+    <div id="Form" class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+                <h2>การใช้งาน Form </h2>
+                <h4>Bootstrap Forms</h4>
+                <br> หกดฟเัก้ืทยนไำบชพๆพตะขๆตำพี่เนไพๆาดบรภชถึพีาดมช๒ฏโฌ็๋ษศสหา่าด่ยหฟ่
+                <br>นย่เยอืีภบืรบยายเาสวหก่ีนเฟดตฟ้ยนก่ฟวสด่กาวหฟ่ดาวฟ่หกาว่ฟาวห่กวาฟ่หวาก่ยคหัคจด<br>
 
-    </div>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+            </div>
+            <div class="col-sm-1">
+            </div>
+
+        </div>
 
 
 
 
 
 
-    <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
-        <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
-    </footer>
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+        </footer>
 
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
+        <script>
+            $(document).ready(function() {
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
 
-                    // Store hash
-                    var hash = this.hash;
+                        // Store hash
+                        var hash = this.hash;
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function() {
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 900, function() {
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-
-            $(window).scroll(function() {
-                $(".slideanim").each(function() {
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + 600) {
-                        $(this).addClass("slide");
-                    }
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
                 });
-            });
-        })
-    </script>
+
+                $(window).scroll(function() {
+                    $(".slideanim").each(function() {
+                        var pos = $(this).offset().top;
+
+                        var winTop = $(window).scrollTop();
+                        if (pos < winTop + 600) {
+                            $(this).addClass("slide");
+                        }
+                    });
+                });
+            })
+        </script>
 
 </body>
 
